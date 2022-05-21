@@ -1,0 +1,182 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+  letter-spacing: 0.03em;
+}
+/* Header */
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.web {
+  color: #2196f3;
+}
+/* Navigation list */
+.list,
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.list > a {
+  color: inherit;
+  text-decoration: none;
+}
+.list > a:hover,
+.list > a:focus {
+  color: #2196f3;
+}
+/* Header contacts */
+.contacts {
+  color: #757575;
+  text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+.contacts-list {
+  list-style: none;
+}
+/* Index - Section 1 (Head) */
+.head {
+  background-color: #2f303a;
+}
+.h1-index {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-index {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Index - Section 2 (Features) */
+.h2-hide {
+  display: none;
+}
+.feature-list {
+  list-style: none;
+}
+.feature-list .text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* Index - Section 3 (Our work) */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Index - Section 4 (Our Team) */
+.our-team {
+  background: #f5f4fa;
+}
+.team-list .text {
+  color: #757575;
+}
+.team-list {
+  list-style: none;
+}
+/* Footer */
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.logo-footer {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer:visited {
+  color: #ffffff;
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.section4-h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Portfolio - Categories */
+.list-categories {
+  list-style: none;
+}
+.button-categories {
+  background-color: #f5f4fa;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button-categories:hover,
+.button-categories:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Portfolio - Projects */
+.list-projects {
+  list-style: none;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
+/* Buttons style */
+button {
+  cursor: pointer;
+}
