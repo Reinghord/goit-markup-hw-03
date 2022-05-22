@@ -114,11 +114,21 @@ ul {
 }
 .feature-list {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 .feature-list .text {
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
+
+  text-align: left;
+}
+.feature-list li {
+  max-width: 270px;
+}
+.feature-list > li:not(:first-child) {
+  margin-left: 30px;
 }
 .title {
   font-weight: 700;
@@ -130,6 +140,9 @@ ul {
   margin-bottom: 10px;
 }
 /* Index - Section 3 (Our work) */
+.section.work {
+  padding-top: 0px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -137,6 +150,13 @@ ul {
   text-align: center;
 
   margin-bottom: 50px;
+}
+.section.work li {
+  list-style: none;
+}
+.ul-work {
+  display: flex;
+  justify-content: space-between;
 }
 /* Index - Section 4 (Our Team) */
 .our-team {
@@ -150,6 +170,8 @@ ul {
 }
 .team-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 .section4-h3 {
   font-weight: 500;
