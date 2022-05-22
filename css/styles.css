@@ -204,6 +204,7 @@ ul {
   line-height: 1.19;
 
   margin-bottom: 20px;
+  display: block;
 }
 .logo-footer:visited {
   color: #ffffff;
