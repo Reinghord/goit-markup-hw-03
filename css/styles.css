@@ -20,8 +20,7 @@ ul {
 .header {
   border-bottom: 1px solid #ececec;
 }
-.div-header,
-.header-nav {
+.div-header {
   display: flex;
   align-items: center;
 }
