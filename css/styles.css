@@ -217,6 +217,9 @@ ul {
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
 }
+.section4-li img {
+  display: block;
+}
 /* Footer */
 .footer {
   color: var(--colorHero);
@@ -311,6 +314,7 @@ ul {
   margin-left: 0px;
 }
 .list-projects img {
+  display: block;
   margin-bottom: 20px;
 }
 .projects-title {
@@ -323,6 +327,8 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
+
+  margin-top: 4px;
 }
 .projects-text,
 .projects-title {
