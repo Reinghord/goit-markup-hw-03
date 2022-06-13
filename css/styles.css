@@ -302,8 +302,8 @@ ul {
   flex-wrap: wrap;
 }
 .list-projects > li {
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 20px;
+  /* border-bottom: 1px solid #eeeeee; */
+  /* padding-bottom: 20px; */
   margin-bottom: 30px;
   margin-left: 30px;
 }
@@ -315,7 +315,14 @@ ul {
 }
 .list-projects img {
   display: block;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+.text__wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #eeeeee;
+  border-inline: 1px solid #eeeeee;
 }
 .projects-title {
   font-weight: 700;
