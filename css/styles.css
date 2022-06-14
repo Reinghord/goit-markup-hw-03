@@ -139,7 +139,17 @@ ul {
 }
 /* Index - Section 2 (Features) */
 .h2-hide {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .feature-list {
   list-style: none;
@@ -154,7 +164,7 @@ ul {
   text-align: left;
 }
 .feature-list li {
-  max-width: 270px;
+  width: 270px;
 }
 .feature-list > li:not(:first-child) {
   margin-left: 30px;
@@ -186,6 +196,9 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.ul-work img {
+  display: block;
+}
 /* Index - Section 4 (Our Team) */
 .our-team {
   background: var(--bgColorTertiary);
@@ -207,7 +220,6 @@ ul {
   line-height: 1.19;
   text-align: center;
 
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .section4-li {
@@ -215,11 +227,15 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
 }
 .section4-li img {
   display: block;
 }
+.wrapper4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /* Footer */
 .footer {
   color: var(--colorHero);
@@ -320,6 +336,7 @@ ul {
 .text__wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-inline: 24px;
 
   border-bottom: 1px solid #eeeeee;
   border-inline: 1px solid #eeeeee;
@@ -336,11 +353,6 @@ ul {
   color: #757575;
 
   margin-top: 4px;
-}
-.projects-text,
-.projects-title {
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .list-projects a {
   text-decoration: none;
